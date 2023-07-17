@@ -33,4 +33,39 @@ body::after{
 
 .toggle-button{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    width: 700px;
 }
+
+.toggle-button span{
+    font-size: 4rem;
+}
+
+.inactive{
+    color: #ffffff40;
+    transition: 1s ease-in-out;
+}
+
+.active{
+    color: #ffffffcc;
+    transition: 1s ease-in-out;
+}
+
+.toggle{
+    display: none;
+}
+
+.toggle-container{
+    background-color: #FFDFD755;
+    border-radius: 100px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 40px 0;
+    width: 400px;
+    height: 200px;
+    position: relative;
+    box-shadow: 2px 2px 1px rgba(65,65,65,0.5), -2px -2px 1px rgba(255,255,255,0.5);
+}
+
