@@ -105,3 +105,16 @@ body::after{
     transform: translateX(0px);
     transition: 1s ease-in-out;
 }
+
+
+@media (max-width: 800px) {
+.toggle-button{
+    transform: scale(60%);
+}
+}
+
+@media (max-width: 400px) {
+    .toggle-button {
+        transform: scale(40%);
+    }
+}
