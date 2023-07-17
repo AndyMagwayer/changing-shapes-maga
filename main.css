@@ -69,3 +69,39 @@ body::after{
     box-shadow: 2px 2px 1px rgba(65,65,65,0.5), -2px -2px 1px rgba(255,255,255,0.5);
 }
 
+.toggle-ball{
+    background: #fff;
+    background: url(https://images.unsplash.com/photo-1685115755336-c488e27084a3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2531&q=80);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.round{
+    border-radius: 100px;
+    transition: 1s ease-in-out;
+}
+
+
+.square{
+    border-radius: 0;
+    transition: 1s ease-in-out;
+}
+
+.toggleOn {
+    transform: translateX(200px);
+    transition: 1s ease-in-out;
+}
+
+.toggleOff {
+    transform: translateX(0px);
+    transition: 1s ease-in-out;
+}
